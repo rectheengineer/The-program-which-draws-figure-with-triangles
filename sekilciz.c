@@ -1,15 +1,15 @@
 #include <stdio.h>
+#include <conio.h>
 
-//Bu program "Recep Oðuzhan Þenoðlu" tarafýndan yazýlmýþtýr. || This program is written by  "Recep Oðuzhan Þenoðlu".
+//Bu program "Recep OÄŸuzhan ÅženoÄŸlu" tarafÄ±ndan yazÄ±lmÄ±ÅŸtÄ±r. || This program is written by  "Recep Oguzhan Senoglu".
 //            mail: userlitte1@gmail.com
 
 int main()
 {
 	printf("by    rec.the.engineer\n\n\n");
 	
-	//j=height  &&  i=width
 	
-	//Kelebek çizdir
+	//Kelebek Ã§izdir
 	
 	int i=0,
 		j=0;
@@ -35,7 +35,7 @@ int main()
 	}	
 	printf("\n\n\n");
 	
-	//içi boþ kelebek çizdir
+	//iÃ§i boÅŸ kelebek Ã§izdir
 	
 	//int 
 		i=0,
@@ -62,7 +62,7 @@ int main()
 	}
 		printf("\n\n\n");
 	
-	//kumsaati çizdir
+	//kumsaati Ã§izdir
 	
 	//int 
 		i=0,
@@ -89,7 +89,7 @@ int main()
 	}	
 		printf("\n\n\n");
 	
-	//içiboþ kumsaati çizdir
+	//iÃ§iboÅŸ kumsaati Ã§izdir
 	
 	//int 
 		i=0,
@@ -115,8 +115,35 @@ int main()
 		j++;
 	}
 		printf("\n\n\n");
+		
+	//baklava Ã§izdir
 	
-	//ters üçgen çizdir
+	//int 
+	 	j=0,
+		i=0;
+	
+	while(j<15)
+	{
+		i=0;
+		while(i<15)
+		{
+			if((j<8 && (i<=7-j || i>=7+j)) || (j>7 && (i<=j-7 || i>=21-j)))
+			{
+				printf("o ");
+				i++;
+			}
+			else
+			{
+				printf("  ");
+				i++;
+			}
+		}
+		j++;
+		printf("\n");
+	}
+		printf("\n\n\n");
+		
+	//ters Ã¼Ã§gen Ã§izdir
 	
 	//int 
 		i=0,
@@ -143,7 +170,7 @@ int main()
 	}
 		printf("\n\n\n");
 	
-	//içiboþ ters üçgen çizdir
+	//iÃ§iboÅŸ ters Ã¼Ã§gen Ã§izdir
 	
 	//int 
 		i=0,
@@ -170,7 +197,7 @@ int main()
 	}
 	printf("\n\n\n");
 		
-	//diküçgen çizdir
+	//dikÃ¼Ã§gen Ã§izdir
 	
 	//int 
 		i=0,
@@ -189,7 +216,7 @@ int main()
 	}
 	printf("\n\n\n");
 		
-	//içiboþ diküçgen çizdir
+	//iÃ§iboÅŸ dikÃ¼Ã§gen Ã§izdir
 	
 	//int 
 		i=0,
@@ -216,7 +243,7 @@ int main()
 	}
 	printf("\n\n\n");
 		
-	//ters dik üçgen çizdir
+	//ters dik Ã¼Ã§gen Ã§izdir
 	
 	//int 
 		i=0,
@@ -235,7 +262,7 @@ int main()
 	}
 	printf("\n\n\n");
 		
-	//içiboþ ters dik üçgen çizdir
+	//iÃ§iboÅŸ ters dik Ã¼Ã§gen Ã§izdir
 	
 	//int 
 		i=0,
@@ -262,7 +289,7 @@ int main()
 	}
 	printf("\n\n\n");
 		
-	//üçgen çizdir
+	//Ã¼Ã§gen Ã§izdir
 	
 	//int 
 		i=0,
@@ -289,7 +316,7 @@ int main()
 	}
 	printf("\n\n\n");
 		
-	//içiboþ üçgen çizdir
+	//iÃ§iboÅŸ Ã¼Ã§gen Ã§izdir
 	
 	//int 
 		i=0,
@@ -316,7 +343,7 @@ int main()
 	}
 	printf("\n\n\n");
 		
-	//yan üçgen çizdir
+	//yan Ã¼Ã§gen Ã§izdir
 	
 	//int 
 		i=0,
@@ -336,7 +363,7 @@ int main()
 	}
 	printf("\n\n\n");
 		
-	//içiboþ yan üçgen çizdir
+	//iÃ§iboÅŸ yan Ã¼Ã§gen Ã§izdir
 	
 	//int 
 		i=0,
@@ -363,7 +390,7 @@ int main()
 	}
 	printf("\n\n\n");
 		
-	//yanyana ters dik üçgen çizdir
+	//yanyana ters dik Ã¼Ã§gen Ã§izdir
 	
 	//int 
 		i=0,
@@ -390,7 +417,7 @@ int main()
 	}
 	printf("\n\n\n");
 		
-	//içiboþ yanyana ters dik üçgen çizdir
+	//iÃ§iboÅŸ yanyana ters dik Ã¼Ã§gen Ã§izdir
 	
 	//int 
 		i=0,
@@ -417,7 +444,7 @@ int main()
 	}
 	printf("\n\n\n");
 		
-	//yanyana dik üçgen çizdir
+	//yanyana dik Ã¼Ã§gen Ã§izdir
 	
 	//int 
 		i=0,
@@ -444,7 +471,7 @@ int main()
 	}
 	printf("\n\n\n");
 		
-	//içiboþ yanyana dik üçgen çizdir
+	//iÃ§iboÅŸ yanyana dik Ã¼Ã§gen Ã§izdir
 	
 	//int 
 		i=0,
@@ -470,7 +497,8 @@ int main()
 		j++;
 	}
 	
-	//not thanks to SÜ	
+	//not thanks to SÃœ	
 	
+	getch();
 	return 0;
 }
